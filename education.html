@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- <script src="/portfolio.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="/portfolio.js"></script>
+</head>
+
+<body>
+    <div class="fullscreen_bg">
+        <video src="/background_-_49311 (1080p).mp4" autoplay loop muted class="fullscreen_bg_video"></video>
+    </div>
+    <section class="about">
+        <div class="img">
+            <img src="/img1.png" alt="developergirl">
+        </div>
+        <div class="about-me">
+            <h3>About me</h3>
+            <h3>About me</h3>
+            <p>I am an enthusiastic and dedicated student<br><br> eager to embark on an internship opportunity.<br><br>
+                With a passion for <span class="purple">Web Development.</span></p>
+        </div>
+    </section>
+    <div class="main-btn">
+        <div>
+            <button onclick="myFunction()" class="btn-ed">Education</button>
+            <pre class="p1" id="demo" style="color: white;"></pre>
+        </div>
+
+        <div>
+            <button onclick="myFunction2()" class="btn-ed">Project</button>
+            <p class="p1" id="demo2"></p>
+        </div>
+    </div>
+
+
+
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "2021 <br> <b>H.S.C</b> <br>UTKARSH VIDYALAYA<br> <b>81%</b><br><br> <b>B.Tech-IT</b><br> <b>Pursuing Degree </b> in Silver Oak University<br><br>"
+            }
+            function myFunction2() {
+                document.getElementById("demo2").innerHTML = "<a href='https://2101031000204-margi.github.io/Project.github.io/' target='_blank'>Amazon Clone</a> "
+            }
+        </script>
+</body>
+
+</html>
